@@ -61,7 +61,7 @@ public class Main {
         byte pot = 120;
         byte white = 2;
         byte brown = 4;
-        float clas = (float) pot / (float) (white + (float)brown);
+        int clas = pot /  (white + brown);
         System.out.println("В школе, где " + clas + " классов, нужно " + white + " банок белой краски и " + brown + "банок коричневой краски");
 
         System.out.println("ЗАДАЧА 6");
@@ -96,9 +96,9 @@ public class Main {
         float Masha2 = (float) Masha + ((float) Masha * 10) / 100;
         float Denis2 = (float) Denis + ((float) Denis * 10) / 100;
         float Kristina2 = (float) Kristina + ((float) Kristina * 10) / 100;
-        float MashaPlus = ((float) Masha * 10) / 100;
-        float DenisPlus = ((float) Denis * 10) / 100;
-        float KristinaPlus = ((float) Kristina * 10) / 100;
+        float MashaPlus = (((float) Masha * 10) / 100) * 12;
+        float DenisPlus = (((float) Denis * 10) / 100) * 12;
+        float KristinaPlus = (((float) Kristina * 10)) / 100 * 12;
         System.out.println("Маша теперь получает " + Masha2 + " рублей. Годовой доход вырос на " + MashaPlus + " рублей");
         System.out.println("Денис теперь получает " + Denis2 + " рублей. Годовой доход вырос на " + DenisPlus + " рублей");
         System.out.println("Кристина теперь получает " + Kristina2 + " рублей. Годовой доход вырос на " + KristinaPlus + " рублей");
