@@ -84,24 +84,24 @@ public class Main {
         float grReset = (float) kgReset * 1000;
         short gr500 = 500;
         short gr250 = 250;
-        float ResetGr500 = (float)grReset / gr500;
-        System.out.println("По 500 грамм " + ResetGr500 + " дней");
-        float ResetGr250 = (float)grReset / gr250;
-        System.out.println("По 250 грамм " + ResetGr250 + " дней");
+        float resetGr500 = (float)grReset / gr500;
+        System.out.println("По 500 грамм " + resetGr500 + " дней");
+        float resetGr250 = (float)grReset / gr250;
+        System.out.println("По 250 грамм " + resetGr250 + " дней");
 
         System.out.println("ЗАДАЧА 8");
-        int Masha = 67760;
-        int Denis = 83690;
-        int Kristina = 76230;
-        float Masha2 = (float) Masha + ((float) Masha * 10) / 100;
-        float Denis2 = (float) Denis + ((float) Denis * 10) / 100;
-        float Kristina2 = (float) Kristina + ((float) Kristina * 10) / 100;
-        float MashaPlus = (((float) Masha * 10) / 100) * 12;
-        float DenisPlus = (((float) Denis * 10) / 100) * 12;
-        float KristinaPlus = (((float) Kristina * 10)) / 100 * 12;
-        System.out.println("Маша теперь получает " + Masha2 + " рублей. Годовой доход вырос на " + MashaPlus + " рублей");
-        System.out.println("Денис теперь получает " + Denis2 + " рублей. Годовой доход вырос на " + DenisPlus + " рублей");
-        System.out.println("Кристина теперь получает " + Kristina2 + " рублей. Годовой доход вырос на " + KristinaPlus + " рублей");
+        int masha = 67760;
+        int denis = 83690;
+        int kristina = 76230;
+        float masha2 = (float) masha + ((float) masha * 10) / 100;
+        float denis2 = (float) denis + ((float) denis * 10) / 100;
+        float kristina2 = (float) kristina + ((float) kristina * 10) / 100;
+        float mashaPlus = (((float) masha * 10) / 100) * 12;
+        float denisPlus = (((float) denis * 10) / 100) * 12;
+        float kristinaPlus = (((float) kristina * 10)) / 100 * 12;
+        System.out.println("Маша теперь получает " + masha2 + " рублей. Годовой доход вырос на " + mashaPlus + " рублей");
+        System.out.println("Денис теперь получает " + denis2 + " рублей. Годовой доход вырос на " + denisPlus + " рублей");
+        System.out.println("Кристина теперь получает " + kristina2 + " рублей. Годовой доход вырос на " + kristinaPlus + " рублей");
 
 
 
